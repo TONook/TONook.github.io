@@ -3,7 +3,7 @@ layout: post
 title: Github Pages+jekyll搭建个人Blog网站2024版
 date: 2024-03-19 03:20 +0800
 categories: [Tutorial]
-tags: [git, jekyll]
+tags: [Github pages, git, jekyll]
 pin: false
 ---
 
@@ -54,7 +54,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 </code></pre>
 <p> 解决方法：</p>
-<p> 参考 <a href="https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints">GitHub 的 SSH 密钥指纹</a>向文件<code>~/.ssh/known_hosts</code>中添加相应内容。
+<p> 参考 <a href="https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints" target="_blank">GitHub 的 SSH 密钥指纹</a>向文件<code>~/.ssh/known_hosts</code>中添加相应内容。
  之后依然报错，在终端查看生成的SSH私钥路径是否正确：</p>
 <pre><code class="language-shell">git config --global --get core.sshCommand
 </code></pre>
@@ -116,7 +116,7 @@ Initialized empty Git repository in E:/path/path/.git/
     main new (next fetch will store in remotes/origin)
 </code></pre>
 <p>说明：本地仓库已经与远程仓库成功关联，并且远程仓库的默认分支是main。</p>
-<p>参考教程<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954848507552">分支管理</a></p>
+<p>参考教程<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954848507552" target="_blank">分支管理</a></p>
 <p>同步远程仓库的内容到本地仓库：</p>
 <pre><code class="language-git"> git pull origin "branch-name" </code></pre>
 <p>此时远程仓库和本地仓库实现同步。在此基础上提交本地修改再和远程同步就不会有冲突。</p>
@@ -125,17 +125,17 @@ Initialized empty Git repository in E:/path/path/.git/
 
 ### 0.2 GitHub Pages 和 Jekyll 搭建个人网站
 
-参考[GitHub Pages 快速入门](https://docs.github.com/zh/pages/quickstart)在新建的远程仓库设置中打开pages选项，并设置Branch显示的文件夹为`/dos`配置Github Pages站点的发布源。
+参考[GitHub Pages 快速入门](https://docs.github.com/zh/pages/quickstart){: target="_blank"}在新建的远程仓库设置中打开pages选项，并设置Branch显示的文件夹为`/dos`配置Github Pages站点的发布源。
 
 此时通过`https://username.github.io`已经可以查看网页。
 
-根据[Jekyll win版本安装指导](https://jekyllrb.com/docs/installation/windows/)下载Jekyll。
+根据[Jekyll win版本安装指导](https://jekyllrb.com/docs/installation/windows/){: target="_blank"}下载Jekyll。
 
 在本地仓库对应文件夹中打开终端，运行`jekyll new <your-site-name>`创建一个基本的Jekyll网站。这将生成一个包含默认文件和目录结构的新网站。
 
 通过编辑 Jekyll 网站根目录中的文件来定制个人博客。你可以修改页面内容、布局、样式、配置等，可以使用 Markdown 或 HTML 编写新的文章或页面，并在 _posts 或_pages 目录中保存它们。
 
-可以参考[jekyll目录结构](https://jekyllrb.com/docs/structure/)
+可以参考[jekyll目录结构](https://jekyllrb.com/docs/structure/){: target="_blank"}
 
 ```txt
 .
@@ -156,7 +156,7 @@ Initialized empty Git repository in E:/path/path/.git/
 
 ## 1 网站设计
 
-从GitHub上找到一个心仪的主题。我找的主题是[jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)。根据该项目的文档，我们利用chirpy starter新建一个repository，并同步到本地仓库，这样再修改本地文件。
+从GitHub上找到一个心仪的主题。我找的主题是[jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy){: target="_blank"}。根据该项目的文档，我们利用chirpy starter新建一个repository，并同步到本地仓库，这样再修改本地文件。
 
 ![chirpy对应本地仓库](../assets/image-3.png)
 

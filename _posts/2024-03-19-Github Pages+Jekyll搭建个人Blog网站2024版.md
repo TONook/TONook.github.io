@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第一篇博客
+title: Github Pages+jekyll搭建个人Blog网站2024版
 date: 2024-03-19 03:20 +0800
 categories: [Tutorial]
 tags: [git, jekyll]

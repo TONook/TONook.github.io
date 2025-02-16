@@ -3,7 +3,7 @@ layout: post
 title: Github Pages+jekyll搭建个人Blog网站2024版
 date: 2024-03-19 03:20 +0800
 categories: [Tutorial]
-tags: [Github pages, git, jekyll]
+tags: [Github Pages, git, jekyll]
 pin: false
 ---
 

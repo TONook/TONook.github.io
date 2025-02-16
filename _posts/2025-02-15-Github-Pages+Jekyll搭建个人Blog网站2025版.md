@@ -4,7 +4,7 @@ title: Github Pages+jekyll搭建个人Blog网站2025版
 date: 2025-02-15 03:20 +0800
 categories: [Tutorial]
 tags: [Github Pages, jekyll，git]
-pin: true
+pin: false
 ---
 
 # 简单Blog搭建
@@ -34,8 +34,8 @@ pin: true
 1. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. [Ruby和Jekyll](https://jekyllrb.com/docs/installation/windows/)
 3. [GCC](https://blog.csdn.net/qq_45601448/article/details/109158588)
-4. [Make](https://blog.csdn.net/weixin_41896770/article/details/131262178)
-5. [git](https://blog.csdn.net/qq_29493173/article/details/113094143)
+4. [Make]{: target="https://blog.csdn.net/weixin_41896770/article/details/131262178"}
+5. [git](./){: target="https://blog.csdn.net/qq_29493173/article/details/113094143"}
 6. [新窗口打开](./){: target="_blank"}
 
 ### 1.2 账号创建
